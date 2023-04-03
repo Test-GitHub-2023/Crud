@@ -40,23 +40,23 @@
                                 <div class="card-body">
                                     <div class="form-group">
                                         <label for="nombre">Nombre</label>
-                                        <input type="text" class="form-control" name="nombre" required/>
+                                        <input type="text" class="form-control" name="nombre" value="${cliente.nombre}" required/>
                                     </div>
                                     <div class="form-group">
                                         <label for="apellido">Apellido</label>
-                                        <input type="text" class="form-control" name="apellido" required/>
+                                        <input type="text" class="form-control" name="apellido" value="${cliente.apellido}" required/>
                                     </div>
                                     <div class="form-group">
                                         <label for="email">email</label>
-                                        <input type="email" class="form-control" name="email" required/>
+                                        <input type="email" class="form-control" name="email" value="${cliente.email}" required/>
                                     </div>
                                     <div class="form-group">
                                         <label for="telefono">telefono</label>
-                                        <input type="tel" class="form-control" name="telefono" required/>
+                                        <input type="tel" class="form-control" name="telefono" value="${cliente.telefono}" required/>
                                     </div>
                                     <div class="form-group">
                                         <label for="saldo">saldo</label>
-                                        <input type="number" class="form-control" name="saldo" step="any" required/>
+                                        <input type="number" class="form-control" name="saldo" step="any" value="${cliente.saldo}" required/>
                                     </div>
                                     <div  class="modal-footer">
                                         <button class="btn btn-primary" type="submit">Guardar</button>
